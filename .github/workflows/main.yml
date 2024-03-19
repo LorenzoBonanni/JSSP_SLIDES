@@ -41,7 +41,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: main.pdf
+          files: demo.pdf
           tag_name: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
